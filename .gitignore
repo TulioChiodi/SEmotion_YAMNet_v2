@@ -1,5 +1,9 @@
 # Dataset folder
 data/raw/*
+notebook/*
+
+# VSCode files
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
