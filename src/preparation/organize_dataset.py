@@ -1,5 +1,6 @@
 from pathlib import Path
 import shutil
+import os
 
 RAWDATA_PATH = Path('data/raw/')
 
