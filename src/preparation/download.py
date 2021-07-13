@@ -5,10 +5,9 @@ import gdown
 import os
 from pathlib import Path
 
-def setup_folders(ROOT_PATH):
-    ROOT_PATH = Path(ROOT_PATH)
-    os.makedirs(ROOT_PATH / 'data/processed')
-    os.makedirs(ROOT_PATH / 'data/raw')
+def setup_folders():
+    os.makedirs('data/processed')
+    os.makedirs('data/raw')
 
 def download(url: str, fpath: str):
     resp = requests.get(url, stream=True)
